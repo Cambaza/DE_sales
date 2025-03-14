@@ -1,5 +1,6 @@
 # DE_sales
 ##Scenario:
+
 E-commerce company wants to track real-time sales data from its platform and generate insights, such as:
 - Top-selling products in the last hour
 - Sales trends across different regions
@@ -39,6 +40,7 @@ To achieve this, we need to build a real-time data pipeline that ingests, proces
    Deploy the pipeline on AWS/GCP using Docker and Kubernetes.
    Implement CI/CD for automated deployment.
 4. Tech Stack
+
    ||Component	||Tools||
    |Data Simulation	|Python (Faker library)|
    |Streaming|	Apache Kafka / AWS Kinesis|
