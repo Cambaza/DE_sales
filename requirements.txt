@@ -1,0 +1,4 @@
+kafka-python
+faker
+psycopg2
+pandas
