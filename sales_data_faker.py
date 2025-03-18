@@ -3,8 +3,6 @@ import sys
 if sys.version_info >= (3, 12, 0):
     sys.modules['kafka.vendor.six.moves'] = six.moves
 
-import json
-import time
 import random
 from faker import Faker
 
@@ -25,7 +23,7 @@ def generate_sales_data():
         "total_amount": round(random.uniform(10.0, 500.0), 2),
         "payment_method": random.choice(["Credit Card", "PayPal", "Gift Card"]),
         "customer_id": fake.uuid4(),
-        "location": fake.city(),
+        "location_": fake.city(),
     }
 
 
