@@ -23,7 +23,7 @@ def generate_sales_data():
         "total_amount": round(random.uniform(10.0, 500.0), 2),
         "payment_method": random.choice(["Credit Card", "PayPal", "Gift Card"]),
         "customer_id": fake.uuid4(),
-        "location_": fake.city(),
+        "location": fake.city(),
     }
 
 
